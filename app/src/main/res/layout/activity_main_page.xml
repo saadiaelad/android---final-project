@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#66ff4081"
+    tools:context="com.example.elad.newbabyapp.MainPage">
+
+    <TextView
+        android:text="@string/hello_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/helloView"
+        android:textDirection="ltr"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="@string/week_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:id="@+id/weekView"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/helloView"
+        android:layout_alignEnd="@+id/helloView"
+        android:textDirection="ltr" />
+
+    <TextView
+        android:text="@string/name_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameText"
+        android:textStyle="bold"
+        android:textDirection="ltr"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="56dp"
+        android:layout_alignBaseline="@+id/helloView"
+        android:layout_alignBottom="@+id/helloView"
+        android:layout_alignStart="@+id/weekView" />
+
+    <TextView
+        android:text="@string/week_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/weekView"
+        android:layout_toStartOf="@+id/weekView"
+        android:id="@+id/weekText"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="@string/birth_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/birthView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/birthText"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="@string/weight_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weightView"
+        android:layout_below="@+id/weekView"
+        android:layout_alignEnd="@+id/weekView"
+        android:layout_marginTop="31dp"
+        android:textStyle="bold"
+        android:textDirection="ltr"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="@string/birth_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:id="@+id/birthView"
+        android:textStyle="bold"
+        android:textDirection="ltr"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/weightView"
+        android:layout_alignEnd="@+id/weightView" />
+
+    <TextView
+        android:text="@string/weight_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/weightView"
+        android:layout_toStartOf="@+id/weightView"
+        android:id="@+id/weightText"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="@string/next_exam_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/birthView"
+        android:id="@+id/nextExamView"
+        android:textStyle="bold"
+        android:textDirection="ltr"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="@string/next_exam_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nextExamView"
+        android:layout_toStartOf="@+id/nextExamView"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/nextExamText"
+        android:textStyle="bold"
+        android:textDirection="ltr"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="@string/since_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nextExamView"
+        android:layout_alignEnd="@+id/nextExamView"
+        android:layout_marginTop="35dp"
+        android:id="@+id/sinceView"
+        android:textStyle="bold"
+        android:textDirection="ltr"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="@string/since_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sinceView"
+        android:layout_toStartOf="@+id/weekText"
+        android:id="@+id/sinceText"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="@string/till_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sinceView"
+        android:layout_alignStart="@+id/nameText"
+        android:layout_marginTop="38dp"
+        android:id="@+id/tillView"
+        android:textStyle="bold"
+        android:textDirection="ltr"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="@string/till_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tillView"
+        android:layout_toEndOf="@+id/sinceText"
+        android:id="@+id/tillText"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:text="@string/all_exams_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tillView"
+        android:layout_toEndOf="@+id/nextExamText"
+        android:layout_marginTop="18dp"
+        android:id="@+id/allExamsButton"
+        android:textStyle="bold"
+        android:background="@drawable/ButtonStyle"/>
+
+    <Button
+        android:text="@string/sign_out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/allExamsButton"
+        android:layout_alignParentStart="true"
+        android:id="@+id/signOutButton"
+        android:textStyle="bold"
+        android:background="@drawable/ButtonStyle"/>
+
+</RelativeLayout>

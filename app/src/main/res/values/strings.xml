@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NewBabyApp</string>
+    <string name="name_view">:שם היולדת</string>
+    <string name="date_view">:תאריך וסת אחרון</string>
+    <string name="date_text">dd/mm/yyyy</string>
+    <string name="accpet_button">אישור</string>
+    <string name="name_text">שם היולדת</string>
+    <string name="weight_text">1.9kg</string>
+    <string name="name_text2">,שם</string>
+    <string name="birth_text">13/4/2017</string>
+    <string name="till_text">15/3/2017</string>
+    <string name="week_text">32</string>
+    <string name="since_text">5/3/2017</string>
+    <string name="next_exam_view">:הבדיקה הבאה</string>
+    <string name="week_view">:הנך נמצאת בשבוע</string>
+    <string name="weight_view">:משקל התינוק הממוצע</string>
+    <string name="since_view">:ניתן לקבוע מתאריך</string>
+    <string name="till_view">:עד תאריך</string>
+    <string name="birth_view">:תאריך לידה משוער</string>
+    <string name="sign_out_button">התנתקות</string>
+    <string name="all_exams_button">לכל הבדיקות</string>
+    <string name="next_exam_text">מי שפיר</string>
+    <string name="hello_view">שלום</string>
+</resources>
